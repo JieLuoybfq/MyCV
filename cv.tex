@@ -1,0 +1,238 @@
+\documentclass[paper=letter,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	%\textheight=700px                    % Saving trees ;-)
+%\usepackage{url}
+\usepackage[colorlinks=true,
+linkcolor=blue,
+urlcolor=blue]{hyperref}
+\usepackage{float}
+\usepackage{etaremune}
+\usepackage{wrapfig}
+
+\usepackage{attachfile}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%\addtolength{\voffset}{-40pt}
+%\addtolength{\textheight}{20pt}
+
+\setlength\topmargin{0pt}
+\addtolength\topmargin{-\headheight}
+\addtolength\topmargin{-\headsep}
+\setlength\oddsidemargin{0pt}
+\setlength\textwidth{\paperwidth}
+\addtolength\textwidth{-2in}
+\setlength\textheight{\paperheight}
+%\addtolength\textheight{-3in}
+\addtolength\textheight{-2in}
+\usepackage{layout}
+
+%%% Custom sectioning}{sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{1pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan}{optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[2]{\section*{\uppercase{#1} \small \normalfont #2}}
+
+\newcommand{\NewParttwo}[1]{
+		\noindent \huge \textbf{#1}
+        \normalsize \par}
+
+
+
+\newcommand{\PersonalEntry}[2]{\small
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name}{birth, address, etc.)
+		\small\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name}{birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{White}{%
+			\parbox{6em}{%
+			\hfill\color{Black}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[5]{
+		\noindent \textbf{#1}
+        \noindent \small \textit{#2}
+        \hfill      % Study
+        \colorbox{White}{%
+			\parbox{6em}{%
+			\hfill\color{Black}#3}} \par  % Duration
+		\noindent \textit{#4} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #5 % Description
+		\normalsize \par}
+
+\newcommand{\Language}[2]{
+		\noindent \textbf{#1}
+        \noindent \small \textit{#2}}
+        
+\newcommand{\Text}[1]{\par       
+		\noindent \small #1 
+		\normalsize \par}
+        
+\newcommand{\Textlong}[4]{
+		\noindent \textbf{#1} \par
+        \sepspace
+        \noindent \small #2
+        \par\sepspace      
+		\noindent \small #3
+        \par\sepspace      
+		\noindent \small #4
+        \normalsize \par}
+	    
+              
+
+\newcommand{\PaperEntry}[7]{
+		\noindent #1, ``\href{#7}{#2}", \textit{#3} \textbf{#4}, #5 (#6).}
+
+
+\newcommand{\ArxivEntry}[3]{
+		\noindent #1, ``\href{http://arxiv.org/abs/#3}{#2}", \textit{{cond-mat/}#3}.}
+        
+\newcommand{\BookEntry}[4]{
+		\noindent #1, ``\href{#3}{#4}", \textit{#3}.}
+        
+\newcommand{\FundingEntry}[5]{
+        \noindent #1, ``#2", \$#3 (#4, #5).}
+
+\newcommand{\TalkEntry}[4]{
+		\noindent #1, #2, #3 #4}
+
+\newcommand{\ThesisEntry}[5]{
+		\noindent #1 -- #2 #3 ``#4" \textit{#5}}
+
+\newcommand{\CourseEntry}[3]{
+		\noindent \item{#1: \textbf{#2} \\ #3}}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+
+%\layout
+
+% you can upload a photo and include it here...
+\begin{wrapfigure}{l}{0.5\textwidth}
+	\vspace*{-2em}
+		\includegraphics[width=0.15\textwidth]{JieLuo.jpg}
+\end{wrapfigure}
+
+\MyName{Jie Luo}
+\MySlogan{Curriculum Vit\ae\ (\today)}
+
+\sepspace
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{}{}
+
+\PersonalEntry{Phone:}{+ 86 15255197758}
+\PersonalEntry{Mail:}{\href{jielybfq@gmail.com}{jielybfq@gmail.com}}
+\PersonalEntry{Nationality:}{Chinese}
+
+
+
+
+
+
+%%% Work experience
+%%% ------------------------------------------------------------
+
+
+
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Research Experience}{}
+
+\WorkEntry{Changan University}{\href{http://www.xahu.edu.cn/}{Changan University}}{2012-2016} {Building Safety Engineering}{In March 2015, participated in the vegetation slope protection project of the mentor. 
+\\In June 2015, participated in the foundation pit support project of my mentor.
+\\In August 2015, I participated in the national natural fund scientific research project of my teacher – large-scale physical model test of shield tunnel-surrounding rock-building dynamic interaction under ground crack load.}
+
+\sepspace
+
+\WorkEntry{University of Science and Technology of China}{\href{https://www.ustc.edu.cn/}{University of Science and Technology of China}}{2016-present}{State key laboratory of fire science}{The radiative properties of fire emitted particles (including black carbon and organic carbon).
+\\The variation of microscopic physical properties of fire emitted particles with the atmospheric aging.
+\\Biomass combustion emissions and its climate effects by combining the WRF-chem and remote sensing.}
+
+\sepspace
+
+
+\NewPart{Main achievements of the past two years}{}
+\Texts{As the calculation of radiative properties of black carbon aggregates is computationally expensive, we applied the machine learning to find the best fit for the relation between radiative properties
+	and morphology.\\For black carbon(BC) thickly-coated with brown coatings, we found
+	the absorption of internal mixed BC can be less than that of an external mixture of brown carbon (BrC) and black carbon. From the physical point, we analysed that the absorbing coating can block into the
+	BC, so leads to less absorption, and we named this phenomenon as
+	”sunglass effect”.}
+
+
+%
+
+%%% SKILLS
+%%% ------------------------------------------------------------
+\NewPart{SKILLS}{}
+
+\Language{Experience}{(Non-sherical particle calculation, Machine learning, WRF-chem, MODIS products disposing.),}\Language{Computer Languages}{(Skilled in use of Matlab and NCL; familiar with Python, Fortran, IDL, C and C++.),}\Language{Tools and Software}{(Skilled in Latex, Word, Pycharm and visio; familiar with pov-ray, paraview and CAD.),}
+
+
+%%% SKILLS
+%%% ------------------------------------------------------------
+\NewPart{Honors}{}
+
+\Texts{National scholarship of Changan University (2014)\\National Encouragement scholarship of Changan University (2013,2015) \\National scholarship of University of science and
+	technology of China (2018)}
+
+
+\NewPart{Publications}{}
+
+\Texts{Luo, J., Y. M. Zhang, and Q. X. Zhang (2018a), A model study of aggregates composed of spherical soot monomers with an acentric carbon shell, Journal of Quantitative Spectroscopy and Radiative Transfer, 205, 184-195.\\Luo, J., Y. M. Zhang, Q. X. Zhang, F. Wang, J. Liu, and J. J. Wang (2018c), Sensitivity
+	analysis of morphology on radiative properties of soot aerosols, Optics Express,
+	26(10), A420-A432.\\ Luo, J., Y. Zhang, F. Wang, J. Wang, and Q. Zhang (2018d), Applying machine learning to estimate the optical properties of black carbon fractal aggregates, Journal of
+	Quantitative Spectroscopy and Radiative Transfer, 215, 1-8.\\ Luo, J., Zhang, Y., Wang, F., and Zhang, Q.: Effects of brown coatings on the absorption enhancement of black carbon: a numerical investigation, Atmos. Chem. Phys., 18, 16897-16914, 10.5194/acp-18-16897-2018, 2018.
+
+}
+
+
+
+\newpage
+
+
+
+
+
+\end{document}
