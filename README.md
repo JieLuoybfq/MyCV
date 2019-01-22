@@ -1,4 +1,4 @@
 # MyCV
-Jie Luo's Resume
+# Jie Luo's Resume
 
 [cv.pdf](cv.pdf)
