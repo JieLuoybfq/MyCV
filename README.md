@@ -60,9 +60,9 @@
 ## 发表论文
 
 - Luo, J., Y. M. Zhang, and Q. X. Zhang (2018a), [A model study of aggregates composed of spherical soot monomers with an acentric carbon shell](https://www.sciencedirect.com/science/article/pii/S0022407317303254), Journal of Quantitative Spectroscopy and Radiative Transfer, 205, 184-195.]
-- Luo, J., Y. M. Zhang, Q. X. Zhang, F. Wang, J. Liu, and J. J. Wang (2018c), Sensitivity analysis of morphology on radiative properties of soot aerosols, Optics Express, 26(10), A420-A432.
-- Luo, J., Y. Zhang, F. Wang, J. Wang, and Q. Zhang (2018d), Applying machine learning to estimate the optical properties of black carbon fractal aggregates, Journal of Quantitative Spectroscopy and Radiative Transfer, 215, 1-8.
-- Luo, J., Zhang, Y., Wang, F., and Zhang, Q.: Effects of brown coatings on the absorption enhancement of black carbon: a numerical investigation, Atmos. Chem. Phys., 18, 16897-16914, 10.5194/acp-18-16897-2018, 2018.
+- Luo, J., Y. M. Zhang, Q. X. Zhang, F. Wang, J. Liu, and J. J. Wang (2018c), [Sensitivity analysis of morphology on radiative properties of soot aerosols](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-10-A420), Optics Express, 26(10), A420-A432.
+- Luo, J., Y. Zhang, F. Wang, J. Wang, and Q. Zhang (2018d), [Applying machine learning to estimate the optical properties of black carbon fractal aggregates](https://www.sciencedirect.com/science/article/pii/S0022407317309238), Journal of Quantitative Spectroscopy and Radiative Transfer, 215, 1-8.
+- Luo, J., Zhang, Y., Wang, F., and Zhang, Q.: [Effects of brown coatings on the absorption enhancement of black carbon: a numerical investigation](https://www.atmos-chem-phys.net/18/16897/2018/acp-18-16897-2018-discussion.html), Atmos. Chem. Phys., 18, 16897-16914, 10.5194/acp-18-16897-2018, 2018.
 
 
 ## 参与项目
