@@ -72,11 +72,11 @@
 - 国家自然科学基金联合基金项目：基于散射矩阵分析和探测过程模拟的民用飞机货舱低误报率烟雾探测研究
 ## 技能清单
 
-- ★★★ Matlab,NCL
-- ★★☆ C++、Python,Fortran,R
+- ★★★ Matlab,Python,R
+- ★★☆ C++、Fortran,NCL
 - ★★★ Latex,Word,Markdown
 - ★★★ DDA, T-matrix, Mie ，Libradtran
-- ★★☆  WRF-chem
+- ★★☆  WRF-chem,机器学习
 
 
 
