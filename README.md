@@ -52,6 +52,8 @@
      - 研究烟颗粒非球形态如何影响卫星及地面遥感
      - 采用Libradtran等辐射传输软件，结合WRF-chem等大气化学传输模式，研究烟颗粒对区域辐射的影响
      - 采用WRF-chem研究烟颗粒对区域性气候的影响。
+     - 利用多卫星遥感数据以及地面观测数据对火灾气溶胶颗粒进行反演
+     - 采用mixing-solved、particle-solved气溶胶模型研究黑碳气溶胶混合特性的影响机制。
      
 ## 获奖及荣誉
    - 2013年及2015年 获长安大学国家励志奖学金
@@ -74,10 +76,10 @@
 ## 技能清单
 
 - ★★★ Matlab,Python,R
-- ★★☆ C++、Fortran,NCL
+- ★★☆ C++，Fortran,NCL
 - ★★★ Latex,Word,Markdown
 - ★★★ DDA, T-matrix, Mie ，Libradtran
-- ★★☆  WRF-chem,机器学习
+- ★★☆  WRF-chem,机器学习，气溶胶box模型，遥感数据处理
 
 
 
