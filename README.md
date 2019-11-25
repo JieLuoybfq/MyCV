@@ -67,7 +67,7 @@
 - Luo, J., Y. M. Zhang, Q. X. Zhang, F. Wang, J. Liu, and J. J. Wang (2018c), [Sensitivity analysis of morphology on radiative properties of soot aerosols](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-10-A420), Optics Express, 26(10), A420-A432.
 - Luo, J., Y. Zhang, F. Wang, J. Wang, and Q. Zhang (2018d), [Applying machine learning to estimate the optical properties of black carbon fractal aggregates](https://www.sciencedirect.com/science/article/pii/S0022407317309238), Journal of Quantitative Spectroscopy and Radiative Transfer, 215, 1-8.
 - Luo, J., Zhang, Y., Wang, F., and Zhang, Q.: [Effects of brown coatings on the absorption enhancement of black carbon: a numerical investigation](https://www.atmos-chem-phys.net/18/16897/2018/acp-18-16897-2018-discussion.html), Atmos. Chem. Phys., 18, 16897-16914, 10.5194/acp-18-16897-2018, 2018.
-- Luo, J., Zhang, Q., Luo, J., Liu, J., Huo, Y., & Zhang, Y. (n.d.). Optical modeling of black carbon with diﬀerent coating materials: The eﬀect of coating confgurations. Journal of Geophysical Research: Atmospheres, n/a(n/a) (已接收， published online)
+- Luo, J., Zhang, Q., Luo, J., Liu, J., Huo, Y., & Zhang, Y. (n.d.). [Optical modeling of black carbon with diﬀerent coating materials: The eﬀect of coating confgurations](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JD031701). Journal of Geophysical Research: Atmospheres, n/a(n/a) (已接收， published online)
 
 ### 会议论文
 
