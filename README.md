@@ -54,6 +54,7 @@
      - 采用Libradtran等辐射传输软件，结合WRF-chem等大气化学传输模式，研究烟颗粒对区域辐射的影响
      - 采用WRF-chem研究林火烟颗粒对区域性气候的影响。
  - Washington Unversity in St.Loius, Center of Aerosol Science and Technology, 访问学者，国家留学基金委联合培养
+     - 将非球烟颗粒辐射模型离线耦合至大气化学传输模型，结合辐射模型研究烟颗粒非球效应对区域气候预测的影响
      
 ## 获奖及荣誉
    - 2013年及2015年 获长安大学国家励志奖学金
